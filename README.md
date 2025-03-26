@@ -1,60 +1,69 @@
-# 🚀 Project Name
+# 🚀 AI-Powered Hyper-Personalization Engine
 
 ## 📌 Table of Contents
 - [Introduction](#introduction)
-- [Demo](#demo)
-- [Inspiration](#inspiration)
-- [What It Does](#what-it-does)
-- [How We Built It](#how-we-built-it)
+- [Demo] Uploaded in artifacts folder with requirement.docx file
+- [Inspiration] The purpose and inspiration behind this hackathon are to leverage cutting-edge AI to deliver uniquely tailored experiences, significantly boosting customer       satisfaction and deepening engagement. Inspired by the vision to empower individuals, we're dedicated to providing personalized financial solutions that align seamlessly     with each customer's specific goals, preferences, and lifestyle, driving meaningful connections and financial well-being.
+- [What It Does] It can intelligently analyze complex customer data and generate dynamic, personalized recommendations and insights at scale
+- [How We Built It] We built is using gen ai models and hugging face transformers. To display data we used streamlit
 - [Challenges We Faced](#challenges-we-faced)
-- [How to Run](#how-to-run)
-- [Tech Stack](#tech-stack)
-- [Team](#team)
+- [How to Run] streamlit run  Hyperpersonal_neonninja.py
+- [Tech Stack]
+  Streamlit
+  LLaMA-3.3-70B via Groq API
+  Hugging Face Transformers
+  SentenceTransformer + Cosine Similarity
+  Whisper
+  EasyOCR + BLIP, Plotly
+- [Team] NeonNinja
 
 ---
 
 ## 🎯 Introduction
-A brief overview of your project and its purpose. Mention which problem statement are your attempting to solve. Keep it concise and engaging.
+Generative AI-powered Hyper-Personalization Engine that leverages customer data and multimodal inputs (text, voice, image) to provide tailored financial insights and recommendations
 
 ## 🎥 Demo
-🔗 [Live Demo](#) (if applicable)  
-📹 [Video Demo](#) (if applicable)  
+📹 [Video Demo](#) Uploaded to artifacts folder 
 🖼️ Screenshots:
 
 ![Screenshot 1](link-to-image)
 
 ## 💡 Inspiration
-What inspired you to create this project? Describe the problem you're solving.
+The purpose and inspiration behind this hackathon are to leverage cutting-edge AI to deliver uniquely tailored experiences, significantly boosting customer satisfaction and deepening engagement. Inspired by the vision to empower individuals, we're dedicated to providing personalized financial solutions that align seamlessly with each customer's specific goals, preferences, and lifestyle, driving meaningful connections and financial well-being.
 
 ## ⚙️ What It Does
-Explain the key features and functionalities of your project.
+It provides 5 features to the customer that gives 360 degree view in accordance to their transaction history and sentiments.
 
 ## 🛠️ How We Built It
-Briefly outline the technologies, frameworks, and tools used in development.
+We built is using gen ai models and hugging face transformers. To display data we used streamlit
 
 ## 🚧 Challenges We Faced
-Describe the major technical or non-technical challenges your team encountered.
+To get a constant and relevant response from the model
+To incldue all type of input format and provide that to model 
 
 ## 🏃 How to Run
 1. Clone the repository  
    ```sh
-   git clone https://github.com/your-repo.git
+   git clone https://github.com/ewfx/aidhp-neon-ninja
    ```
 2. Install dependencies  
    ```sh
-   npm install  # or pip install -r requirements.txt (for Python)
+pip install streamlit pandas python-dotenv llama-index llama-index-llms-groq sentence-transformers numpy transformers torch scikit-learn openai-whisper audio-recorder-streamlit Pillow plotly openpyxl easyocr
+
    ```
 3. Run the project  
    ```sh
-   npm start  # or python app.py
+   streamlit run  Hyperpersonal_neonninja.py
    ```
 
 ## 🏗️ Tech Stack
-- 🔹 Frontend: React / Vue / Angular
-- 🔹 Backend: Node.js / FastAPI / Django
-- 🔹 Database: PostgreSQL / Firebase
-- 🔹 Other: OpenAI API / Twilio / Stripe
+- 🔹 Frontend: Streamlit
+- 🔹 LLM: LLaMA-3.3-70B via Groq API
+- 🔹 Sentiment Analysis	: PostgreSQL / Firebase
+- 🔹 Vector Similarity	: MiniLM + Cosine similarity
+- 🔹 Voice Transcription	: Whisper
+
 
 ## 👥 Team
-- **Your Name** - [GitHub](#) | [LinkedIn](#)
-- **Teammate 2** - [GitHub](#) | [LinkedIn](#)
+- **Puspanjali Dash** - puspanjali7 | [LinkedIn](#)
+- **Mragya Rao** - mragya5 | [LinkedIn](#)
