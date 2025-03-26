@@ -59,7 +59,7 @@ To incldue all type of input format and provide that to model
 ## 🏗️ Tech Stack
 - 🔹 Frontend: Streamlit
 - 🔹 LLM: LLaMA-3.3-70B via Groq API
-- 🔹 Sentiment Analysis	: PostgreSQL / Firebase
+- 🔹 Sentiment Analysis	: Hugging face sentiment analysis
 - 🔹 Vector Similarity	: MiniLM + Cosine similarity
 - 🔹 Voice Transcription	: Whisper
 
