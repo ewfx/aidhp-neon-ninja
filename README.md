@@ -48,7 +48,7 @@ To incldue all type of input format and provide that to model
    ```
 2. Install dependencies  
    ```sh
-pip install streamlit pandas python-dotenv llama-index llama-index-llms-groq sentence-transformers numpy transformers torch scikit-learn openai-whisper audio-recorder-streamlit Pillow plotly openpyxl easyocr
+    pip install streamlit pandas python-dotenv llama-index llama-index-llms-groq sentence-transformers numpy transformers torch scikit-learn openai-whisper audio-recorder-       streamlit Pillow plotly openpyxl easyocr
 
    ```
 3. Run the project  
