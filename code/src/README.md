@@ -1,3 +1,1 @@
-## Delete this file
-
-Instead place your source files here
+This is the primary code for Neno ninja's team for submission to AI-Powered Hyper-Personalization Engine hackathon topic.
