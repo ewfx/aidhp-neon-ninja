@@ -20,7 +20,7 @@ import easyocr
 
 
 load_dotenv()
-GROQ_API_KEY = os.getenv('GROQ_KEY')
+GROQ_API_KEY = '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'
 if not GROQ_API_KEY:
     raise ValueError("GROQ_API_KEY environment variable not found. Please set it in your .env file.")
 
