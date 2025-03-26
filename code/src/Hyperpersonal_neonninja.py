@@ -33,7 +33,7 @@ def load_data(file_path):
 def transcribe_voice(uploaded_file):
     with tempfile.NamedTemporaryFile(delete=False, suffix=".wav") as f:
         f.write(uploaded_file.read())
-        whisper_model = whisper.load_model("medium")
+        whisper_model = whisper.load_model("large-v2")
         result = whisper_model.transcribe(f.name)
         return result["text"]
 
